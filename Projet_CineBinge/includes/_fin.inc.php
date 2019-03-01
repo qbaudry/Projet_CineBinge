@@ -1,66 +1,76 @@
-<!-- Footer -->
-            <footer id="footer" class="panel">
-                <div class="inner split">
-                    <div>
-                        <section>
-                            <h2>Magna feugiat sed adipiscing</h2>
-                            <p>Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum eget quis orci mattis aliquet. Maecenas fringilla et ante at lorem et ipsum. Dolor nulla eu bibendum sapien. Donec non pharetra dui. Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum.</p>
-                        </section>
-                        <section>
-                            <h2>Follow me on ...</h2>
-                            <ul class="icons">
-                                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                                <li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
-                                <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-                                <li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                            </ul>
-                        </section>
-                        <section>
-                            <?php
-                                printErreurs();
-                                razErreurs();
-                            ?>
-                        </section>
-                        <p class="copyright">
-                            &copy; CinéBinge
-                        </p>
-                    </div>
-                    <div>
-                        <section>
-                            <h2>Get in touch</h2>
-                            <form method="post" action="#">
-                                <div class="fields">
-                                    <div class="field half">
-                                        <input type="text" name="name" id="name" placeholder="Name" />
-                                    </div>
-                                    <div class="field half">
-                                        <input type="text" name="email" id="email" placeholder="Email" />
-                                    </div>
-                                    <div class="field">
-                                        <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                                <ul class="actions">
-                                    <li><input type="submit" value="Send" class="primary" /></li>
-                                    <li><input type="reset" value="Reset" /></li>
-                                </ul>
-                            </form>
-                        </section>
-                    </div>
+<!-- BEGIN: LAYOUT/FOOTERS/FOOTER-6 -->
+<a name="footer"></a>
+<footer class="c-layout-footer c-layout-footer-7">
+    <div class="c-postfooter c-bg-dark-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 c-col">
+                    <p class="c-copyright c-font-grey">2018 &copy; QBAUDRY
+                        <span class="c-font-grey-3">Tous droits réservés.</span>
+                    </p>
                 </div>
-            </footer>
-
+            </div>
         </div>
+    </div>
+</footer>
 
-        <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.poptrox.min.js"></script>
-        <script src="assets/js/browser.min.js"></script>
-        <script src="assets/js/breakpoints.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <script src="assets/js/main.js"></script>
+<!-- BEGIN: LAYOUT/FOOTERS/GO2TOP -->
+<div class="c-layout-go2top">
+    <i class="icon-arrow-up"></i>
+</div><!-- END: LAYOUT/FOOTERS/GO2TOP -->
 
-    </body>
+<!-- BEGIN: LAYOUT/BASE/BOTTOM -->
+<!-- BEGIN: CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="assets/global/plugins/excanvas.min.js"></script> 
+<![endif]-->
+<script src="theme/assets/plugins/jquery.min.js" type="text/javascript" ></script>
+<script src="theme/assets/plugins/jquery-migrate.min.js" type="text/javascript" ></script>
+<script src="theme/assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript" ></script>
+<script src="theme/assets/plugins/jquery.easing.min.js" type="text/javascript" ></script>
+<script src="theme/assets/plugins/reveal-animate/wow.js" type="text/javascript" ></script>
+<script src="theme/assets/demos/default/js/scripts/reveal-animate/reveal-animate.js" type="text/javascript" ></script>
+
+
+<!-- BEGIN: LAYOUT PLUGINS -->
+<script src="theme/assets/plugins/revo-slider/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/revo-slider/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/revo-slider/js/extensions/revolution.extension.slideanims.min.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/revo-slider/js/extensions/revolution.extension.layeranimation.min.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/revo-slider/js/extensions/revolution.extension.navigation.min.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/revo-slider/js/extensions/revolution.extension.video.min.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/revo-slider/js/extensions/revolution.extension.parallax.min.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/counterup/jquery.waypoints.min.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/counterup/jquery.counterup.min.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/smooth-scroll/jquery.smooth-scroll.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/typed/typed.min.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/slider-for-bootstrap/js/bootstrap-slider.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/js-cookie/js.cookie.js" type="text/javascript"></script>
+
+<!-- BEGIN: THEME SCRIPTS -->
+<script src="theme/assets/base/js/components.js" type="text/javascript"></script>
+<script src="theme/assets/base/js/components-shop.js" type="text/javascript"></script>
+<script src="theme/assets/base/js/app.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function () {
+        App.init(); // init core    
+    });
+</script>
+
+<!-- BEGIN: PAGE SCRIPTS -->
+<script src="theme/assets/plugins/isotope/isotope.pkgd.min.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/isotope/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/isotope/packery-mode.pkgd.min.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/ilightbox/js/jquery.requestAnimationFrame.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/ilightbox/js/jquery.mousewheel.js" type="text/javascript"></script>
+<script src="theme/assets/plugins/ilightbox/js/ilightbox.packed.js" type="text/javascript"></script>
+<script src="theme/assets/demos/default/js/scripts/revo-slider/slider-3.js" type="text/javascript"></script>
+<script src="theme/assets/demos/default/js/scripts/pages/isotope-gallery.js" type="text/javascript"></script>
+<script src="theme/assets/demos/default/js/scripts/pages/isotope-grid.js" type="text/javascript"></script>
+<script src="theme/assets/demos/default/js/scripts/pages/lightbox-gallery.js" type="text/javascript"></script>
+
+</body>
 </html>
